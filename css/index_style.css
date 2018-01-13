@@ -253,3 +253,17 @@ hr{
 	margin:20px;
 }
 
+.services{
+	justify-content: center;
+}
+.services div{
+	margin:40px;
+}
+
+.services li{
+	padding-top:10px;
+	font-weight: normal;		
+}
+.services a{
+	color:#262626;
+}
