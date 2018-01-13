@@ -1,87 +1,148 @@
-*{
+* {
 	padding: 0;
 	margin: 0 auto;
 	box-sizing: border-box;
 	font-family: 'Scout'
 }
 
-a{
+a {
 	text-decoration: none;
+	cursor:pointer;	
 }
+
+li{
+	list-style: none;
+}
+
+
 @font-face {
 	font-family: 'Scout';
 	src: url('./../fonts/Scout-Regular.otf') format('opentype');
 	font-weight: normal;
-	}
-	@font-face {
+}
+
+@font-face {
 	font-family: 'Scout';
 	src: url('./../fonts/Scout-Light.otf') format('opentype');
 	font-weight: 400;
-	 }
-	@font-face {
+}
+
+@font-face {
 	font-family: 'Scout';
 	src: url('./../fonts/Scout-Bold.otf') format('opentype');
 	font-weight: bold;
-	}
-	@font-face {
+}
+
+@font-face {
 	font-family: 'Scout';
 	src: url('./../fonts/Scout-ExtraLight.otf') format('opentype');
 	font-weight: 200;
-	}
-	@font-face {
+}
+
+@font-face {
 	font-family: 'Scout';
 	src: url('./../fonts/Scout-Thin.otf') format('opentype');
 	font-weight: 100;
-	}
-	@font-face {
+}
+
+@font-face {
 	font-family: 'ScoutCond';
 	src: url('./../fonts/ScoutCond-Regular.otf') format('opentype');
 	font-weight: normal;
-	}
+}
 
-	.full-width-content{
-		width:1500px;
-	}
+.full-width-content {
+	width: 1500px;
+}
 
-	.right-align{
-		float:right;
-	}
-	.pad5{
-		padding:5px;
-	}
+.container{
+	width:1200px;
+	margin-left:150px;
+	margin-right:150px;
+}
 
-	.pad-top3{
-		padding-top:3px;
-	}
-	.top-nav{
-		background-color:#262626;
-		height:30px;		
-		padding-left:150px;
-		padding-right:150px;
-	}
+.right-align {
+	float: right;
+}
 
-	.white-text{
-		color:white;
-	}
-	.black-text{
-		color:#262626;
-	}
+.pad5 {
+	padding: 5px;
+}
 
-	.scout-cond{
-		font-family:"ScoutCond";
-		letter-spacing:1px;
-	}
+.pad-top3 {
+	padding-top: 3px;
+}
 
-	.fs-xs{
-		font-size:9pt;
-	}
-	.fs-s{
-		font-size:12pt;
-	}
+.margin-left15 {
+	margin-left: 15px;
+}
 
-	.margin-left15{
-		margin-left:15px;
-	}
-	.margin-left20{
-		margin-left:20px;
-	}
+.margin-left20 {
+	margin-left: 20px;
+}
+.margin-top15{
+	margin-top:15px;
+}
+.top-nav {
+	background-color: #262626;
+	height: 30px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.white-text {
+	color: white;
+}
+
+.black-text {
+	color: #262626;
+}
+
+.scout-cond {
+	font-family: "ScoutCond";
+	letter-spacing: 1px;
+}
+
+.fs-xs {
+	font-size: 9pt;
+}
+
+.fs-s {
+	font-size: 12pt;
+}
+.fs-m{
+	font-size:18pt;
+}
+.fs-b{
+	font-size:24pt;
+}
+
+nav{
+	background-color:white;
+}
+.logo{
+	font-family:"Scout";
+	font-weight:bold;	
+}
+
+.flex{
+	display:flex;
+	justify-content:center;
+}
+.navbar li{
+	padding:10px;
+	margin-right:7px;
+	margin-left:7px;	
+}
+
+.navbar li a{
+	font-family:"ScoutCond";
+	color: #262626;
+}
+
+.navbar li:hover{
+	background-color:black;
+}
+.navbar li:hover a{
+	color:white;
+}
