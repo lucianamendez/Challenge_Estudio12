@@ -1,19 +1,18 @@
 * {
-	padding: 0;
 	margin: 0 auto;
+	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Scout'
+	font-family: 'Scout';
 }
 
 a {
 	text-decoration: none;
-	cursor:pointer;	
+	cursor: pointer;
 }
 
-li{
+li {
 	list-style: none;
 }
-
 
 @font-face {
 	font-family: 'Scout';
@@ -55,10 +54,10 @@ li{
 	width: 1500px;
 }
 
-.container{
-	width:1200px;
-	margin-left:150px;
-	margin-right:150px;
+.container {
+	width: 1200px;
+	margin-left: 150px;
+	margin-right: 150px;
 }
 
 .right-align {
@@ -80,9 +79,19 @@ li{
 .margin-left20 {
 	margin-left: 20px;
 }
-.margin-top15{
-	margin-top:15px;
+
+.margin-top15 {
+	margin-top: 15px;
 }
+
+.margin-top70 {
+	margin-top: 70px;
+}
+
+.margin-bottom30 {
+	margin-bottom: 30px;
+}
+
 .top-nav {
 	background-color: #262626;
 	height: 30px;
@@ -103,46 +112,113 @@ li{
 	letter-spacing: 1px;
 }
 
-.fs-xs {
+.fs-xxs {
 	font-size: 9pt;
+}
+
+.fs-xs{
+	font-size:10pt;
 }
 
 .fs-s {
 	font-size: 12pt;
 }
-.fs-m{
-	font-size:18pt;
-}
-.fs-b{
-	font-size:24pt;
+
+.fs-sm {
+	font-size: 16pt;
 }
 
-nav{
-	background-color:white;
-}
-.logo{
-	font-family:"Scout";
-	font-weight:bold;	
+.fs-m {
+	font-size: 18pt;
 }
 
-.flex{
-	display:flex;
-	justify-content:center;
-}
-.navbar li{
-	padding:10px;
-	margin-right:7px;
-	margin-left:7px;	
+.fs-b {
+	font-size: 24pt;
 }
 
-.navbar li a{
-	font-family:"ScoutCond";
+.fs-xb {
+	font-size: 40pt;
+}
+
+.text-center{
+	text-align: center;
+}
+
+nav {
+	background-color: white;
+}
+
+.logo {
+	font-family: "Scout";
+	font-weight: bold;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+}
+
+.navbar li {
+	padding: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.navbar li a {
+	font-family: "ScoutCond";
 	color: #262626;
 }
 
-.navbar li:hover{
-	background-color:black;
+.navbar li:hover {
+	background-color: black;
 }
-.navbar li:hover a{
-	color:white;
+
+.navbar li:hover a {
+	color: white;
+}
+
+.message-bar {
+	background-color: #334b67;
+	padding: 7px;
+	font-size: 13pt;
+	margin: initial;
+}
+
+.message-bar span {
+	font-weight: bold;
+}
+
+.message-content {
+	width: 28%;
+}
+
+.pink-bar {
+	background-color: #eac3d8;
+	height: 5px;
+}
+
+#slider {
+	opacity: 1;
+	transition: opacity 0.5s;
+}
+
+#slider.fadeOut {
+	opacity: 0;
+}
+
+.title-product {
+	width: 37%;
+}
+
+.product-thumbnails{
+	align-items: flex-end;
+
+}
+
+figcaption > p:first-child{
+	font-weight: 600;
+}
+figcaption > p:last-child{
+	color: #595959;
+	font-weight: 600;
 }
