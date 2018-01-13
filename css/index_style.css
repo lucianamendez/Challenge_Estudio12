@@ -13,6 +13,9 @@ a {
 li {
 	list-style: none;
 }
+body{
+	background-color:white;
+}
 
 @font-face {
 	font-family: 'Scout';
@@ -87,7 +90,9 @@ li {
 .margin-top70 {
 	margin-top: 70px;
 }
-
+.margin-top40 {
+	margin-top: 40px;
+}
 .margin-bottom30 {
 	margin-bottom: 30px;
 }
@@ -131,7 +136,9 @@ li {
 .fs-m {
 	font-size: 18pt;
 }
-
+.fs-mb{
+	font-size:	20pt;
+}
 .fs-b {
 	font-size: 24pt;
 }
@@ -144,9 +151,6 @@ li {
 	text-align: center;
 }
 
-nav {
-	background-color: white;
-}
 
 .logo {
 	font-family: "Scout";
@@ -170,7 +174,7 @@ nav {
 }
 
 .navbar li:hover {
-	background-color: black;
+	background-color: #262626;
 }
 
 .navbar li:hover a {
@@ -212,7 +216,11 @@ nav {
 
 .product-thumbnails{
 	align-items: flex-end;
+	justify-content: space-between;
 
+}
+figure{
+	margin:0;
 }
 
 figcaption > p:first-child{
@@ -222,3 +230,26 @@ figcaption > p:last-child{
 	color: #595959;
 	font-weight: 600;
 }
+
+.products-aside{
+	flex-direction: column;
+	vertical-align: middle;
+}
+.products-aside a{
+	margin:-2px -2px -2px -3px;
+	
+}
+
+hr{
+	border-width: 1px;
+	border-color:#262626;
+}
+
+.social-media{
+	background-color:#262626;
+	height:80px;
+}
+.social-media a{
+	margin:20px;
+}
+
