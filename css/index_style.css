@@ -1,0 +1,87 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: 'Scout'
+}
+
+a{
+	text-decoration: none;
+}
+@font-face {
+	font-family: 'Scout';
+	src: url('./../fonts/Scout-Regular.otf') format('opentype');
+	font-weight: normal;
+	}
+	@font-face {
+	font-family: 'Scout';
+	src: url('./../fonts/Scout-Light.otf') format('opentype');
+	font-weight: 400;
+	 }
+	@font-face {
+	font-family: 'Scout';
+	src: url('./../fonts/Scout-Bold.otf') format('opentype');
+	font-weight: bold;
+	}
+	@font-face {
+	font-family: 'Scout';
+	src: url('./../fonts/Scout-ExtraLight.otf') format('opentype');
+	font-weight: 200;
+	}
+	@font-face {
+	font-family: 'Scout';
+	src: url('./../fonts/Scout-Thin.otf') format('opentype');
+	font-weight: 100;
+	}
+	@font-face {
+	font-family: 'ScoutCond';
+	src: url('./../fonts/ScoutCond-Regular.otf') format('opentype');
+	font-weight: normal;
+	}
+
+	.full-width-content{
+		width:1500px;
+	}
+
+	.right-align{
+		float:right;
+	}
+	.pad5{
+		padding:5px;
+	}
+
+	.pad-top3{
+		padding-top:3px;
+	}
+	.top-nav{
+		background-color:#262626;
+		height:30px;		
+		padding-left:150px;
+		padding-right:150px;
+	}
+
+	.white-text{
+		color:white;
+	}
+	.black-text{
+		color:#262626;
+	}
+
+	.scout-cond{
+		font-family:"ScoutCond";
+		letter-spacing:1px;
+	}
+
+	.fs-xs{
+		font-size:9pt;
+	}
+	.fs-s{
+		font-size:12pt;
+	}
+
+	.margin-left15{
+		margin-left:15px;
+	}
+	.margin-left20{
+		margin-left:20px;
+	}
