@@ -13,8 +13,9 @@ a {
 li {
 	list-style: none;
 }
-body{
-	background-color:white;
+
+body {
+	background-color: white;
 }
 
 @font-face {
@@ -54,11 +55,12 @@ body{
 }
 
 .full-width-content {
-	width: 1500px;
+	max-width: 1500px;
+	width: 100%;
 }
 
 .container {
-	width: 1200px;
+	max-width: 1200px;
 	margin-left: 150px;
 	margin-right: 150px;
 }
@@ -71,8 +73,16 @@ body{
 	padding: 5px;
 }
 
+.margin5 {
+	margin: 5px;
+}
+
 .pad-top3 {
 	padding-top: 3px;
+}
+
+.marginzero{
+	margin:0;
 }
 
 .margin-left15 {
@@ -90,9 +100,11 @@ body{
 .margin-top70 {
 	margin-top: 70px;
 }
+
 .margin-top40 {
 	margin-top: 40px;
 }
+
 .margin-bottom30 {
 	margin-bottom: 30px;
 }
@@ -100,8 +112,39 @@ body{
 .top-nav {
 	background-color: #262626;
 	height: 30px;
-	padding-left: 150px;
-	padding-right: 150px;
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+.menuicon {
+	display: none;
+	width: 20px;
+	float: left;
+	cursor: pointer;
+	position: absolute;
+	top:5px;
+	left:2px;
+}
+
+.responsive-menu {
+	display: none;
+	background-color: #262626;
+}
+
+.opened {
+	display: block;
+}
+
+.responsive-menu a {
+	color: white;
+}
+
+.responsive-menu li:hover {
+	background-color: white;
+}
+
+.responsive-menu li:hover>a {
+	color: #262626;
 }
 
 .white-text {
@@ -121,8 +164,8 @@ body{
 	font-size: 9pt;
 }
 
-.fs-xs{
-	font-size:10pt;
+.fs-xs {
+	font-size: 10pt;
 }
 
 .fs-s {
@@ -136,9 +179,11 @@ body{
 .fs-m {
 	font-size: 18pt;
 }
-.fs-mb{
-	font-size:	20pt;
+
+.fs-mb {
+	font-size: 20pt;
 }
+
 .fs-b {
 	font-size: 24pt;
 }
@@ -147,10 +192,9 @@ body{
 	font-size: 40pt;
 }
 
-.text-center{
+.text-center {
 	text-align: center;
 }
-
 
 .logo {
 	font-family: "Scout";
@@ -179,13 +223,14 @@ body{
 
 .navbar li:hover a {
 	color: white;
+	padding:1px 5px;
 }
 
 .message-bar {
 	background-color: #334b67;
-	padding: 7px;
+	width:100%;
+	padding:7px;
 	font-size: 13pt;
-	margin: initial;
 }
 
 .message-bar span {
@@ -193,12 +238,17 @@ body{
 }
 
 .message-content {
-	width: 28%;
+	justify-content: center;
 }
 
 .pink-bar {
 	background-color: #eac3d8;
 	height: 5px;
+}
+
+.slider img {
+	max-width: 1500px;
+	width: 100vw;
 }
 
 #slider {
@@ -211,59 +261,63 @@ body{
 }
 
 .title-product {
-	width: 37%;
+	width: 37vw;
 }
 
-.product-thumbnails{
+.product-thumbnails {
 	align-items: flex-end;
 	justify-content: space-between;
-
-}
-figure{
-	margin:0;
 }
 
-figcaption > p:first-child{
+figure {
+	margin: 0;
+}
+
+figcaption>p:first-child {
 	font-weight: 600;
 }
-figcaption > p:last-child{
+
+figcaption>p:last-child {
 	color: #595959;
 	font-weight: 600;
 }
 
-.products-aside{
+.products-aside {
 	flex-direction: column;
 	vertical-align: middle;
 }
-.products-aside a{
-	margin:-2px -2px -2px -3px;
-	
+
+.products-aside a {
+	margin: -2px -2px -2px -3px;
 }
 
-hr{
+hr {
 	border-width: 1px;
-	border-color:#262626;
+	border-color: #262626;
 }
 
-.social-media{
-	background-color:#262626;
-	height:80px;
-}
-.social-media a{
-	margin:20px;
+.social-media {
+	background-color: #262626;
+	height: 80px;
 }
 
-.services{
+.social-media a {
+	margin: 20px;
+}
+
+.services {
 	justify-content: center;
 }
-.services div{
-	margin:40px;
+
+.services div {
+	margin: 40px;
 }
 
-.services li{
-	padding-top:10px;
-	font-weight: normal;		
+.services li {
+	padding-top: 10px;
+	font-weight: normal;
 }
-.services a{
-	color:#262626;
+
+.services a {
+	color: #262626;
 }

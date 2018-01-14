@@ -16,3 +16,9 @@ function sliderfade() {
     setTimeout(sliderfade, imgDuration);
 }
 sliderfade();
+
+
+function displayMenu(){
+    document.getElementById('responsive-menu').classList.toggle("opened");
+}
+
