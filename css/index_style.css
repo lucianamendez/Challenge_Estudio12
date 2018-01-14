@@ -1,7 +1,6 @@
 * {
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 	font-family: 'Scout';
 }
 
@@ -16,6 +15,8 @@ li {
 
 body {
 	background-color: white;
+	margin:0 auto;
+	max-width:1500px;
 }
 
 @font-face {
@@ -56,13 +57,16 @@ body {
 
 .full-width-content {
 	max-width: 1500px;
-	width: 100%;
+	margin: 0 auto;
 }
 
 .container {
 	max-width: 1200px;
-	margin-left: 150px;
-	margin-right: 150px;
+	margin:0 auto;
+}
+
+.border-box{
+	box-sizing: border-box;
 }
 
 .right-align {
@@ -72,7 +76,9 @@ body {
 .pad5 {
 	padding: 5px;
 }
-
+.pad15 {
+	padding: 15px;
+}
 .margin5 {
 	margin: 5px;
 }
@@ -97,12 +103,12 @@ body {
 	margin-top: 15px;
 }
 
-.margin-top70 {
-	margin-top: 70px;
-}
-
 .margin-top40 {
 	margin-top: 40px;
+}
+
+.margin-top70 {
+	margin-top: 70px;
 }
 
 .margin-bottom30 {
@@ -122,8 +128,8 @@ body {
 	float: left;
 	cursor: pointer;
 	position: absolute;
-	top:5px;
-	left:2px;
+	top:20px;
+	left:12px;
 }
 
 .responsive-menu {
@@ -199,13 +205,23 @@ body {
 .logo {
 	font-family: "Scout";
 	font-weight: bold;
+	display:block;
+	width:25%;
 }
 
 .flex {
 	display: flex;
 	justify-content: center;
 }
-
+.navbar{
+	margin:0 auto;
+	width:100%;
+}
+.navbar ul{
+	
+	position:relative;
+	left:5%;
+}
 .navbar li {
 	padding: 10px;
 	margin-right: 10px;
@@ -229,7 +245,8 @@ body {
 .message-bar {
 	background-color: #334b67;
 	width:100%;
-	padding:7px;
+	padding-top:7px;
+	padding-bottom:7px;
 	font-size: 13pt;
 }
 
@@ -248,7 +265,7 @@ body {
 
 .slider img {
 	max-width: 1500px;
-	width: 100vw;
+	width: 100%;
 }
 
 #slider {
@@ -260,11 +277,8 @@ body {
 	opacity: 0;
 }
 
-.title-product {
-	width: 37vw;
-}
-
 .product-thumbnails {
+	width:100%;
 	align-items: flex-end;
 	justify-content: space-between;
 }
