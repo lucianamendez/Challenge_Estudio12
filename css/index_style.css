@@ -21,37 +21,37 @@ body {
 
 @font-face {
 	font-family: 'Scout';
-	src: url('./../fonts/Scout-Regular.otf') format('opentype');
+	src: url('../fonts/Scout-Regular.otf') format('opentype');
 	font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Scout';
-	src: url('./../fonts/Scout-Light.otf') format('opentype');
+	src: url('../fonts/Scout-Light.otf') format('opentype');
 	font-weight: 400;
 }
 
 @font-face {
 	font-family: 'Scout';
-	src: url('./../fonts/Scout-Bold.otf') format('opentype');
+	src: url('../fonts/Scout-Bold.otf') format('opentype');
 	font-weight: bold;
 }
 
 @font-face {
 	font-family: 'Scout';
-	src: url('./../fonts/Scout-ExtraLight.otf') format('opentype');
+	src: url('../fonts/Scout-ExtraLight.otf') format('opentype');
 	font-weight: 200;
 }
 
 @font-face {
 	font-family: 'Scout';
-	src: url('./../fonts/Scout-Thin.otf') format('opentype');
+	src: url('../fonts/Scout-Thin.otf') format('opentype');
 	font-weight: 100;
 }
 
 @font-face {
 	font-family: 'ScoutCond';
-	src: url('./../fonts/ScoutCond-Regular.otf') format('opentype');
+	src: url('../fonts/ScoutCond-Regular.otf') format('opentype');
 	font-weight: normal;
 }
 

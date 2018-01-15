@@ -1,7 +1,7 @@
 var array = [
-    './../img/Estudio12-Challenge_0516.jpg',
-    './../img/Estudio12-Challenge_0516.jpg',
-    './../img/Estudio12-Challenge_0516.jpg'],
+    './img/Estudio12-Challenge_0516.jpg',
+    './img/Estudio12-Challenge_0516.jpg',
+    './img/Estudio12-Challenge_0516.jpg'],
     position = 0;
     imgDuration = 6000;
 
