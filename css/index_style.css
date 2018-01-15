@@ -301,13 +301,18 @@ figcaption>p:last-child {
 	vertical-align: middle;
 }
 
-.products-aside a {
-	margin: -2px -2px -2px -3px;
+.products-aside,.products-aside a, .categories a {
+	line-height:0;
+	display:block;
 }
 
 hr {
 	border-width: 1px;
 	border-color: #262626;
+}
+
+.fossil{
+	justify-content: space-between;
 }
 
 .social-media {
